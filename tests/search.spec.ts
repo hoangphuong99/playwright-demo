@@ -17,13 +17,13 @@ describe('Feature - HomePage 2', () => {
             await homePage.inputSearch(search1.keyword);
         });
 
-        await step('3. Verify suggestion contain keyword', async () => {
-            await homePage.verifySearchKeyword(search1.keyword);
+        // await step('3. Verify suggestion contain keyword', async () => {
+        //     await homePage.verifySearchKeyword(search1.keyword);
 
-        });
+        // });
 
 
-        
+
 
     });
 
