@@ -28,7 +28,7 @@ export default defineConfig({
     //   username: 'candidatex',
     //   password: 'qa-is-cool',
     // },
-    headless: false,
+    headless: true,
     ignoreHTTPSErrors: true,
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 30 * 1000,
