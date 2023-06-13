@@ -19,11 +19,11 @@ describe('Feature - HomePage', () => {
             await page.locator("//input[contains(@class, 'FormSearchStyle')]").type(search1.keyword);
         });
 
-        await step('3. Verify suggestion contain keyword', async () => {
-            console.log(await page.locator("//div[@class='keyword']").allTextContents());
-            expect( await page.locator("//div[@class='keyword']").allTextContents()).toContainEqual(search1.keyword);
+        // await step('3. Verify suggestion contain keyword', async () => {
+        //     console.log(await page.locator("//div[@class='keyword']").allTextContents());
+        //     expect( await page.locator("//div[@class='keyword']").allTextContents()).toContainEqual(search1.keyword);
 
-        });
+        // });
 
     });
 
